@@ -1,5 +1,4 @@
-# GrailsFirstProject
-Practica 2, Ingeniería de software 2
+# Practica 2, Ingeniería de software 2
 
 Andres Giovanny Aldana Wilches
 
