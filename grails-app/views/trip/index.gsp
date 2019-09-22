@@ -27,7 +27,7 @@
             <g:if test="${flash.message}">
                 <div class="message" role="status">${flash.message}</div>
             </g:if>
-            <f:table collection="${tripList}" />
+            <f:table collection="${tripList}" except="image" />
             <div class="pagination">
                 <g:paginate total="${tripCount ?: 0}" />
             </div>

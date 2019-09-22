@@ -21,7 +21,8 @@ class TripController {
 
     def show()
     {
-        respond Trip.get(params.id) 
+        def t = Trip.get(params.id)
+        respond  t
     }
 
     def edit()

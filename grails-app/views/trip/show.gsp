@@ -19,7 +19,13 @@
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
-            <f:display bean="trip" />
+            <f:display bean="trip" except="image" />
+            <g:if test="${trip.image != null}">
+                <g:img uri="${trip.image}" width="40%" height="40%" style="margin-left: 30%" />
+            </g:if>
+            <g:else>
+                <g:img style="margin-left: 30%"  uri="https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty-300x240.jpg" width="40%" height="40%" />
+            </g:else>
             <g:form resource="${this.trip}" method="DELETE">
                 <fieldset class="buttons">
                     <g:link class="edit" action="edit" resource="${this.trip}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
