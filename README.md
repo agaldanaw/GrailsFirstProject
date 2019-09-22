@@ -9,7 +9,8 @@ Para correr la aplicación:
 2. Abrir la linea de comandos e ir hasta la carpeta donde está el proyecto
 3. ejecutar el comando grails
 4. ejecutar el comando run-app
-5. Se van a crear 6 viajes de prueba
+5. abrir el navegador web y digitar http://localhost:8080/
+Nota: Se van a crear 6 viajes de prueba
 
 Carácteristicas:
 
