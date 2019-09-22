@@ -19,6 +19,6 @@ Carácteristicas:
 2. Se pueden editar, borrar, agregar o ver en detalle los trips
 3. El filtro o búsqueda se hace por destino
 4. La carácteristica "cool"  es mostrar un mapa del recorrido que se hizo en ese viaje
-
+5. se puede subir una imagen, para esto se agrega la url de la imagen (alojada en algún servidor) que se desea mostrar en el trip
 
 
